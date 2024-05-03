@@ -9,6 +9,7 @@ from sprite import *
 
 pygame.init()
 g.display = pygame.display.set_mode((g.WIDTH,g.HEIGHT))
+pygame.display.set_caption("42")
 g.clock = pygame.time.Clock()
 g.load_sprites()
 
